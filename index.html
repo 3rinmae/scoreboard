@@ -12,10 +12,30 @@
 </head>
 
 <body>
+  <header class="container-fluid">
+    <p class="row">Game</p>
+  </header>
 
+  <main class="container-fluid">
+    <div class="row">
 
+      <p class="col-6 fs-2">Home Score: <span id="homePoints">0</span></p>
 
+      <p class="col-6 fs-2">Away Score: <span id="awayPoints">0</span></p>
 
+      <div class="row">
+        <button class="col-3 btn fs-4" onclick="homePoints()">Home + 1</button>
+
+        <button class="col-3 btn fs-4" onclick="awayPoints()">Away + 1</button>
+      </div>
+      <div class="row">
+        <button class="col-3 btn fs-4" onclick="homePointsThree()">Home + 3</button>
+
+        <button class="col-3 btn fs-4" onclick="awayPointsThree()">Away + 3</button>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
   <script src="app.js"></script>
 </body>
 
